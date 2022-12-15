@@ -1,0 +1,7 @@
+No eclipse, ir em "Help" > "Instal New Software..."
+Depois, clicar em "Mange..." e verificar se o link "https://download.jboss.org/jbosstools/photon/stable/updates/" está visível na lista (location), se não tiver, adicione (name: "JBoss Tools - Core + Central Update Site", location: "https://download.jboss.org/jbosstools/photon/stable/updates/") e deixe habilitado (enabled).
+Depois, voltando para tela anterior, no campo "Work With", adicione a url "http://download.oracle.com/otn_software/oepe/12.2.1.10/photon/repository/" e tecle enter ou clique em "Add...".
+Na lista que irá aparecer, marque "Tools" > "Oracle Weblogic Server Tools", e clique em next para iniciar a instalação até completar o processo.
+Pode aparecer uma janela "Trust" Selecione todos e clique sobre "Trust Selected".
+Ao final, será exibido a mensagem para reiniciar o Eclipse.
+Após reiniciar, adicione o "novo servidor" Oracle Weblogic Server
