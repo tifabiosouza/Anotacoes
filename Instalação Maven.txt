@@ -1,0 +1,6 @@
+Baixar o binário do maven (binary zip archive) https://maven.apache.org/download.cgi
+Exrair o arquivo zipado, preferencialmente em C:.
+Verifique o diretório do java home está apontando para a jdk (e não JRE). Execute echo %JAVA_HOME% no terminal, se não tiver, configure o JAVA_HOME
+Adicione uma variável de ambiente MAVEN_HOME (mesmo caminho, exceto a pasta bin) Ex: C:\apache-maven-3.8.6
+Adicione às variáveis de ambiente, no path o caminho do maven até a pasta bin. Ex: %MAVEN_HOME%\bin\
+Para checar se a instalação deu certo, execute no terminal mvn -v
