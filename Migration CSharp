@@ -1,0 +1,7 @@
+Instale o Microsoft.EntityFrameworkCore.Tools pelo gerenciador de pacotes.
+
+- Para adicionar uma migração, utilize o comando add-migrations {{nm-migratio}} no console do gerenciador de pacotes, onde o {{nm-migrations}} é o nome da migração a ser criada.
+- Para remover uma migração que ainda não aplicada, utilize o comando remove-migration {{nm-migration}} ou apenas remove-migration sem o nome da migração. A diferença é que a primeira irá remover até a migração desejada e a outra é que vai remover apenas a última.
+
+- Para aplicar a migração no banco de dados, utilize o comando update-database no console do gerenciador de pacotes.
+- Para remover uma migração do banco de dados, utilize o comando update-database {{nm-migraton}} ou para desfazer todas as migrações utilize o comando update-database 0.
